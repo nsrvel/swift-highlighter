@@ -80,10 +80,10 @@ open class Theme {
         
         // Convert the hex to a UIColor or NSColor
         if let bgColourHex = backgroundColourHex {
-            self.themeBackgroundColour = HRColor.red
+            self.themeBackgroundColour = colourFromHexString(bgColourHex)
         } else {
             // Set a generic (light) background
-            self.themeBackgroundColour = HRColor.red
+            self.themeBackgroundColour = HRColor.white
         }
     }
 
