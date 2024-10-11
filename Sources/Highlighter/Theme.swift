@@ -83,7 +83,7 @@ open class Theme {
             self.themeBackgroundColour = colourFromHexString(bgColourHex)
         } else {
             // Set a generic (light) background
-            self.themeBackgroundColour = HRColor.white
+            self.themeBackgroundColour = HRColor.red
         }
     }
 
